@@ -1,0 +1,41 @@
+body {
+    background-color: yellowgreen;
+}
+
+h1 {
+    color: blueviolet;
+    background-color: cornsilk;
+}
+ 
+#show_sketch {
+    float: right;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+canvas {
+    margin-top: 50px ;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border: 5px solid green;
+}
+
+@keyframes example {
+    from{ box-shadow: 5px 5px 40px pink ;}
+    to{ box-shadow: 5px 5px 40px blueviolet;}
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    background-color:cornsilk;
+    color: rgb(33, 60, 209);
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
